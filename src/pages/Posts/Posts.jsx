@@ -1,7 +1,7 @@
 import useFilteredPosts from "../../Hooks/FilterPosts";
 import Filters from "../../components/Filters/Filters";
 import Post from "../../components/Post/Post";
-import "./posts.css";
+import "./Posts.css";
 import { useState } from "react";
 
 const Posts = ({ posts, setPosts }) => {
