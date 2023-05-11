@@ -1,0 +1,23 @@
+.post{
+    position: relative;
+    width: 90%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid grey;
+
+}
+.post-title{
+    font-weight: 700;
+}
+.post-body{
+    overflow-y: auto;
+    color: rgb(232, 80, 20);
+}
+.post-user{
+    color: rgb(232, 126, 20);
+    font-size: larger;
+    font-weight: 700;
+}

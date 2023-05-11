@@ -1,0 +1,16 @@
+.filters{
+    display: flex;
+    position: absolute;
+    right: 5vw;
+    top: 20vh;
+    border: 2px solid brown;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px 10px 100px 10px;
+    background-color: rgb(237, 80, 80)
+    
+}
+h2{
+    margin-bottom: 10px;
+}

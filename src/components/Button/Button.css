@@ -1,0 +1,48 @@
+.delete-button {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+.clear-button {
+  background-color: rgb(106, 167, 8);
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+.home__button {
+  margin-bottom: 10px;
+  width: 200px;
+  height: 50px;
+  font-size: 24px;
+  font-weight: 700;
+  color: brown;
+  border-radius: 20px;
+  border: 3px solid;
+  background-image: radial-gradient(
+    circle at center,
+    #ffffff 0%,
+    #ffcccc 50%,
+    #ff9999 100%
+  );
+}
+.home__button:hover {
+  /* color: rgb(235, 103, 93); */
+  cursor: pointer;
+  background-image: radial-gradient(
+    circle at center,
+    #ffffff 0%,
+    #fadcdc 50%,
+    #ffcece 100%
+  );
+}
+.reset-filters {
+  margin-top: 20px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
