@@ -1,6 +1,7 @@
 .post{
     position: relative;
     width: 90%;
+    max-width: 90%;
     height: 120px;
     display: flex;
     flex-direction: column;
