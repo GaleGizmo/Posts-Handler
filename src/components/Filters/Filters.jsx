@@ -13,7 +13,7 @@ const Filters = ({
 }) => {
   return (
     <div className="filters">
-      <h2>Filtrar</h2>
+      <h2 class="filters-title">Filtrar</h2>
       <Search
         searchParameter={setSearchUser}
         placeHolderText="Buscar por usuario"
